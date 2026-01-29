@@ -1,4 +1,41 @@
 body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.calendario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.calendario th,
+.calendario td {
+    border: 1px solid #ccc;
+    width: 14.2%;
+    height: 120px;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.calendario th {
+    background-color: #3f48cc;
+    color: white;
+}
+
+.calendario strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.evento {
+    background-color: #dfe2ff;
+    padding: 4px;
+    font-size: 0.9em;
+    border-radius: 4px;
+}
+
+body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -36,7 +73,6 @@ img {
     position: relative;
 }
 
-/* show dropdown when details is open (click), not only on hover */
 details[open] .dropdown-content {
     display: block;
 }
@@ -78,31 +114,4 @@ summary::-webkit-details-marker {
 
 .dropdown-content a:hover {
     background-color: #2f36a3;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #3f48cc;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
 }
