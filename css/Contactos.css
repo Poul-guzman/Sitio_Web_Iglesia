@@ -1,0 +1,235 @@
+/*contactos*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  color: #222;
+  line-height: 1.6;
+}
+
+
+.section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+/* Títulos */
+.titulo {
+  padding: 10px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #263971;
+  background-color: #e9e6e48a;
+  flex-shrink: 0;
+  width: 1200px; 
+  margin: 0 auto;
+}
+
+.informacion{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #e9e6e48a;
+  width: 1200px;
+}
+
+.informacion .icon-list  {
+  margin: 0 auto;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}
+
+.informacion .icon-list li {
+  color: #263971;
+  padding: 16px;
+  font-size: 18px;
+}
+
+.informacion .icon-list li strong {
+  font-size: 18px;
+}
+
+
+
+.diezmo{
+  max-width: 1200px;
+  margin: auto;
+  padding: 24px;
+  background-color: #263971;
+  color: #f1f1f1;
+  width: 1200px;
+}
+
+.diezmo p{
+  text-align: center;
+  font-size: 23px;
+}
+
+
+/* Bloque de contacto */
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.testimonial img {
+  width: 70px;
+  height: auto;
+  border-radius: 8px;
+  
+}
+
+/* Lista de cuentas */
+.diezmo .icon-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.diezmo .icon-list li {
+  background: #263971;
+  padding: 16px;
+  margin-bottom: 12px;
+  font-size: 23px;
+  color: #f1f1f1;
+}
+
+.diezmo .icon-list li strong {
+  font-size: 23px;
+}
+
+
+/* Imágenes QR y donación */
+.qr-image {
+  display: block;
+  width: 100%;
+  margin: 24px auto;
+  border-radius: 12px;
+  width: 768px;
+  height: 1086px;
+}
+
+/* Versículo bíblico */
+.verse {
+  font-style: italic;
+  background: #fafafa;
+  border-left: 5px solid #c9a24d;
+  border-right: 5px solid #c9a24d;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 1200px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.verse footer {
+  font-style: normal;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+}
+
+.horarios {
+  margin: 0 auto;
+  padding: 110px 24px 24px;
+  background-color: #e9e6e48a;
+  width: 1800px;
+  display: flex;
+  align-items: center;
+}
+
+.horarios .horarioTexto h2{
+  font-size: 35px;
+  color: #263971;
+}
+
+.horarios .horarioTexto ul{
+  font-size: 22px;
+  color: #263971;
+  margin-top: 40px;
+  list-style: none;
+  font-weight: 400;
+}
+
+.horarios .horarioTexto ul li{
+  margin-bottom: 10px;
+}
+
+.horarioImagen{
+  width: 640px;
+  margin-left: 350px;
+}
+
+.horarioTexto{
+  margin-left: 50px;
+}
+
+.bloque-direccion-ubicacion{
+  margin: 0 auto;
+  background-color: #e9e6e48a;
+  width: 1800px;
+  overflow: hidden;
+}
+
+.direccionYubicacion {
+  margin: 0 auto;
+  padding: 24px;
+  width: 1800px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.direccionYubicacion h2 {
+  font-size: 35px;
+  color: #263971;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.direccionYubicacion p {
+  font-size: 22px;
+  color: cadetblue;
+  text-align: left;
+  font-weight: 400;
+}
+
+.mapContainer {
+  margin: 10;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/*ícono whatsapp*/
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+
+.whatsapp:hover {
+  background-color: #1ebe5d;
+}
+

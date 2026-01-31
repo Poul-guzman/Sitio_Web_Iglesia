@@ -78,3 +78,47 @@ summary::-webkit-details-marker {
 .dropdown-content a:hover {
     background-color: #2f36a3;
 }
+
+/* FOOTER */
+.site-footer {
+    border-top: 1px solid #ddd;
+    background-color: #3f48cc;
+    color: white;
+}
+
+.footer-inner {
+    width: 1900px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-right li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-right a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.footer-right a:hover {
+    color: red;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #3f48cc
+    
+}
+
