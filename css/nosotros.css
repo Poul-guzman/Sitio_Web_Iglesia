@@ -1,0 +1,13 @@
+.titulo {
+    text-align: center;
+    font-size: 35px;
+}
+
+.contenido {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 16px;
+    font-size: 25px;
+    line-height: 1.6;
+    text-align: justify;
+}

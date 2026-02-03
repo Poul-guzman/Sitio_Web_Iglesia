@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* header */
 .barra {
     display: flex;
     align-items: center;
@@ -77,4 +78,53 @@ summary::-webkit-details-marker {
 
 .dropdown-content a:hover {
     background-color: #2f36a3;
+}
+
+/* footer */
+
+.footer {
+    background-color: #3f48cc;
+    color: white;
+    padding-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.footer-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.footer-info p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px 0;
+    font-size: 13px;
+    color: #b0b0b0;
 }
