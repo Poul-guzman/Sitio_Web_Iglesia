@@ -1,0 +1,54 @@
+.titulo {
+    text-align: center;
+    font-size: 25px;
+}
+
+.contenido {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 16px;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.details-acordeon {
+    border: 1px solid #dcdcdc;
+    margin-bottom: 8px;
+    padding: 12px 16px;
+    background-color: #fff;
+}
+
+.summary-acordeon {
+    font-weight: bold;
+    cursor: pointer;
+    color: #1f2f7a;
+    list-style: none;
+}
+
+.summary-acordeon::-webkit-details-marker {
+    display: none;
+}
+
+.summary-acordeon::before {
+    content: "+ ";
+    font-weight: bold;
+    margin-right: 6px;
+}
+
+.details-acordeon[open] .summary-acordeon::before {
+    content: "− ";
+    color: red;
+}
+
+.details-acordeon p {
+    margin-top: 15px;
+    color: #1f2f7a;
+    line-height: 1.6;
+}
+
+.acordeon {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

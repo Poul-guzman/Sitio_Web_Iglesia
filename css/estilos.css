@@ -37,21 +37,21 @@ img {
     position: relative;
 }
 
-details[open] .dropdown-content {
+.details-dropdown[open] .dropdown-content {
     display: block;
 }
 
-details {
+.details-dropdown {
     position: relative;
 }
 
-summary {
+.summary-dropdown {
     list-style: none;
     cursor: pointer;
     color: white;
 }
 
-summary::-webkit-details-marker {
+.summary-dropdown::-webkit-details-marker {
     display: none;
 }
 
@@ -85,7 +85,7 @@ summary::-webkit-details-marker {
 .footer {
     background-color: #3f48cc;
     color: white;
-    padding-top: 40px;
+    padding-top: 50px;
     font-family: Arial, sans-serif;
 }
 
@@ -96,12 +96,12 @@ summary::-webkit-details-marker {
 }
 
 .footer-info h3 {
-    margin: 0;
+    margin: 15;
     font-size: 18px;
 }
 
 .footer-info p {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 14px;
 }
 
@@ -127,4 +127,13 @@ summary::-webkit-details-marker {
     padding: 15px 0;
     font-size: 13px;
     color: #b0b0b0;
+}
+
+.footer-info {
+    padding-left: 50px;
+}
+
+.footer-links {
+    padding-right: 50px;
+    font-size: 20px;
 }
